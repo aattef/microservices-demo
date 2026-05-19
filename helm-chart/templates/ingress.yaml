@@ -19,7 +19,7 @@ spec:
               service:
                 name: {{ $.Values.frontend.name }}
                 port:
-                  number: 80
+                  number: 6000
           {{- end }}
     {{- end }}
 {{- end }}
